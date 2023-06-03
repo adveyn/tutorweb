@@ -1,0 +1,65 @@
+/* Tags styling: https://javascript.plainenglish.io/create-a-custom-tags-input-using-react-76519c35a842 */
+.tags{
+    margin: 20px auto;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 70%;
+    min-width: 80%;
+    border: 1px rgb(173, 162, 162) solid;
+    border-radius: 5px;
+    color: black;
+}
+
+.single-tag{ 
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 7px 0 7px 14px;
+    padding: 0 10px;
+    padding-right: 5px;
+    border: 1.5px solid #764abc;
+    border-radius: 5px;
+    white-space: nowrap;
+    color: #764abc;
+}
+
+input{
+    border: none;
+    padding: 10px;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+
+i{
+    display: flex;
+    padding: 6px;
+    border: none;
+    background-color: unset;
+    cursor: pointer;
+    color: #764abc;
+}
+
+
+.error{
+    color: red;
+}
+
+h1{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+@media screen and (max-width: 600px) {
+    .error{
+        width: 70%;
+        margin: auto;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+}

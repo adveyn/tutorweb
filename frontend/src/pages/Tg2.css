@@ -1,0 +1,19 @@
+.s-tag{ 
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    
+
+    padding-top: 10px;
+    padding-right: 4px;
+    padding-left: 4px;
+    border: 1.5px solid white;
+    
+    border-radius: 5px;
+    white-space: nowrap;
+    color: white;
+    margin-top: 10px;
+    margin-right: 5px;
+    line-height: 0.3;
+  }
+  
