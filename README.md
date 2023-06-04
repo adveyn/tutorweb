@@ -19,7 +19,7 @@
 * Node Version Manager version 1.1.0,  Django version 4.1.5, and pip must be installed
 * ICS4U is the backend directory and frontend is the frontend directory
 * Remember to run the frontend directory with admin permission set
-* To install dependencies for backend, run pip install requirements.txt
+* To install dependencies for backend, run **pip install requirements.txt**
 * The React portion of the website does not have a requirements.txt. Simply run **npm install** or  **npm install --force** in the frontend directory to install dependencies
 * The video call functionality relies on the Agora SDK and a temporary token. Below are the steps to acquire a new token (which is needed to run the project):
     - Navigate to **agora.io** and sign in with the following credentials: email: **arklark@protonmail.com**, password: **ICS4Uproject!**
