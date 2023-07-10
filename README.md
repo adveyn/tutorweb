@@ -6,7 +6,7 @@
 * Edit user profile (first name, last name, competents, role, subject areas, subject grades) 
     * Backspace key to delete last added tag
     * Enter key to append topmost tag
-    * Tagas are automatically sorted with merge sort 
+    * Tags are automatically sorted with merge sort 
 * Chat feature to chat with tutor 
 * Video call feature to meet with tutor
 * Search for tutors based on preference
@@ -16,7 +16,7 @@
 * Notifications allow tutor/student to find what they missed
 
 ## Installation
-* Node Version Manager version 1.1.0,  Django version 4.1.5, and pip must be installed
+* Node Version Manager version 1.1.0,  Django version 4.1.5, and ```pip``` must be installed
 * ICS4U is the backend directory and frontend is the frontend directory
 * Remember to run the frontend directory with admin permission set
 * To install dependencies for backend, run **pip install requirements.txt**
